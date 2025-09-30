@@ -2,19 +2,18 @@ public class Student {
     int rollno;
     String name;
     int marks;
+    static int count = 0;
 
-    public Student(String name, int rollno, int marks) {
+    public Student(String name, int marks) {
+        count++;
         this.name = name;
-        this.rollno = rollno;
+        this.rollno = count;
         this.marks = marks;
+
     }
 
     public int getRollno() {
         return rollno;
-    }
-
-    public void setRollno(int rollno) {
-        this.rollno = rollno;
     }
 
     public String getName() {
@@ -32,6 +31,12 @@ public class Student {
     public void setMarks(int marks) {
         this.marks = marks;
     }
+
+    public static void displayTotalCount() {
+        System.out.println("The total count of students is: " + count);
+        ;
+    }
+
 
     @Override
     public String toString() {
