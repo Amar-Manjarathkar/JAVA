@@ -1,4 +1,4 @@
-public abstract class Vehicle {
+public abstract class Vehicle implements Rentable {
     int regNo;
     String make;
     String model;

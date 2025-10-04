@@ -6,5 +6,14 @@ public class Main {
         Vehicle v2 = new TwoWheeler(123,"KTM","Duke",120000);
         System.out.println(v2.toString());
         System.out.println("Insurance is: "+v2.calculateInsurance());
+
+        System.out.println(v2.rent(4));
+
+        Admin admin = new Admin();
+        Vehicle[] vehicle = {v1,v2};
+
+        admin.displayInsuranceForVehicle(v1);
+
+        admin.generateInsuranceReport(vehicle);
     }
 }
