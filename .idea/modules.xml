@@ -4,10 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Assignment 2/Assignment 2.iml" filepath="$PROJECT_DIR$/Assignment 2/Assignment 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignment1/Assignment1.iml" filepath="$PROJECT_DIR$/Assignment1/Assignment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookBazzar/BookBazzar.iml" filepath="$PROJECT_DIR$/BookBazzar/BookBazzar.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileHandling/FileHandling.iml" filepath="$PROJECT_DIR$/FileHandling/FileHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/GadgetStorec/GadgetStorec.iml" filepath="$PROJECT_DIR$/GadgetStorec/GadgetStorec.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hello/Hello.iml" filepath="$PROJECT_DIR$/Hello/Hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StreamsStudent/StreamsStudent.iml" filepath="$PROJECT_DIR$/StreamsStudent/StreamsStudent.iml" />
     </modules>
   </component>
 </project>
